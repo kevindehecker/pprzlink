@@ -2198,14 +2198,14 @@
 
 <message name="KALAMOS" id="251">
       <field name="Status"   type="char"/>
-      <field name="Height"   type="float"/>
-      <field name="Min_Height"  type="float"/>
-      <field name="Joe_x"   type="float"/>
-      <field name="Joe_y"  type="float"/>
-      <field name="Land_x"  type="float"/>
-      <field name="Land_y"  type="float"/>
-      <field name="V_optic_x"   type="float"/>
-      <field name="V_optic_y"   type="float"/>
+      <field name="Height"   type="float" unit="m"/>
+      <field name="Min_Height"  type="float" unit="m"/>
+      <field name="Joe_x"   type="float" unit="m"/>
+      <field name="Joe_y"  type="float" unit="m"/>
+      <field name="Land_x"  type="float" unit="m"/>
+      <field name="Land_y"  type="float" unit="m"/>
+      <field name="V_optic_x"   type="float" unit="m/s"/>
+      <field name="V_optic_y"   type="float"unit="m/s"/>
   </message>
 
   <!-- 252 is free -->
