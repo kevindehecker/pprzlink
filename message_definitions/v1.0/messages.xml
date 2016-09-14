@@ -2199,13 +2199,13 @@
 <message name="KALAMOS" id="251">
       <field name="Status"   type="char"/>
       <field name="Height"   type="float"/>
-      <field name="Descend_x"   type="float"/>
-      <field name="Descend_y"   type="float"/>
+      <field name="Avoid_psi"   type="float"/>
+      <field name="Avoid_rate"   type="float"/>
       <field name="Descend_z"   type="float"/>
       <field name="Joe_x"   type="float"/>
       <field name="Joe_y"  type="float"/>
-      <field name="Avoid_psi"  type="float"/>
-      <field name="Avoid_reet"  type="float"/>
+      <field name="Land_x"  type="float"/>
+      <field name="Land_y"  type="float"/>
       <field name="V_optic_x"   type="float"/>
       <field name="V_optic_y"   type="float"/>
   </message>
