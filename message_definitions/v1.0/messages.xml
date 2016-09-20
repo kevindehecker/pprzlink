@@ -2197,7 +2197,7 @@
   </message>
 
 <message name="KALAMOS" id="251">
-      <field name="Status"   type="char"/>
+      <field name="Status"   type="uint8"/>
       <field name="Height"   type="float"/>
       <field name="Avoid_psi"   type="float"/>
       <field name="Avoid_rate"   type="float"/>
@@ -2208,6 +2208,8 @@
       <field name="Land_y"  type="float"/>
       <field name="V_optic_x"   type="float"/>
       <field name="V_optic_y"   type="float"/>
+      <field name="Att_calib_phi"   type="float"/>
+      <field name="Att_calib_theta"   type="float"/>
   </message>
 
   <!-- 252 is free -->
