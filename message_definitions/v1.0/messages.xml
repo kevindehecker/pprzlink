@@ -2225,7 +2225,9 @@
     <field name="safety_plug"   type="uint16" values="mV">Safety plug voltage</field>
   </message>
 
-  <!-- 249 is free -->
+  <message name="WING_POS" id="249">
+    <field name="pos" type="float" unit="none"/>
+  </message>
 
   <message name="INDI_G" id="250">
     <field name="G1_roll" type="float[]" unit="none"/>
@@ -2252,10 +2254,6 @@
     <field name="diffSoln"      type="uint8"  values="NONE|DGPS"/>
     <field name="gnssFixOK"           type="uint8" values="NONE|3D"/>
   </message>
-
-  <!-- 249 is free -->
-
-  <!-- 250 is free -->
 
    <message name="GPS_SMALL" id="252">
     <field name="multiplex_speed"  type="uint32">bits 31-21 course in decideg : bits 20-10 ground speed in cm/s : bits 9-0 climb speed in cm/s</field>
